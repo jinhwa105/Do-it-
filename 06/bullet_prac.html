@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .sqbullet{list-style-type:square;}
+    .nobullet{list-style-type:none;}
+
+    .book1{list-style-type:lower-alpha;}
+    .book2{list-style-type:upper-roman}
+
+    ul{list-style-image:url('images/dot.png');}
+
+    .inside{list-style-position: inside;}
+</style>
+<body>
+    <ul class ="sqbullet">
+        <li>회사소개</li>
+        <li>도서</li>
+        <li>질문답변</li>
+        <li>동영상강의</li>
+    </ul>
+    
+    <ul class ="nobullet">
+        <li>회사소개</li>
+        <li>도서</li>
+        <li>질문답변</li>
+        <li>동영상강의</li>
+    </ul>
+
+    <hr>
+    <ol class="book1">
+        <li>Do it! 시리즈</li>
+        <li>된다 시리즈</li>
+        <li>dcm 프로 사진가</li>
+        <li>데이터과학 시리즈</li>
+    </ol>
+    <ol class="book2">
+        <li>Do it! 시리즈</li>
+        <li>된다 시리즈</li>
+        <li>dcm 프로 사진가</li>
+        <li>데이터과학 시리즈</li>
+    </ol>
+    <hr>
+
+    <ul>
+        <li>회사소개</li>
+        <li>도서</li>
+        <li>질문답변</li>
+        <li>동영상강의</li>
+    </ul>
+    <hr>
+    <h3>list-style-position을 지정하지 않음</h3>
+    <ul>
+        <li>회사소개</li>
+        <li>도서</li>
+        <li>질문답변</li>
+        <li>동영상강의</li>
+    </ul>
+    <h3>list-style-position : inside</h3>
+    <ul class="inside">
+        <li>회사소개</li>
+        <li>도서</li>
+        <li>질문답변</li>
+        <li>동영상강의</li>
+    </ul>
+</body>
+</html>

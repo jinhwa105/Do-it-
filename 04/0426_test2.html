@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q2</title>
+    <style>
+        ul {
+           list-style:none;
+        }
+        
+     </style> 
+</head>
+<body>
+    <form action="register.php">
+        <ul>
+            <li>
+                <label for="fst">First name:</label>
+            </li>
+            <li>
+                <input type="text" for="fst" autofocus>
+            </li>
+            <li>
+                <label for="last">Last name:</label>
+            </li>
+            <li>
+                <input type="text" for="lst">
+            </li>
+            <li>
+                <label for="email">Email:</label>
+            </li>
+            <li>
+                <input type="email" for="email" placeholder="@gmail.com">
+            </li>
+        </ul>
+        <ul>
+        <li><label>Gender:</label>
+        <label><input type="radio" name="gender" value="g">Male</label>
+        <label><input type="radio" name="gender" value="f">Female</label></li>
+      
+      <li>
+        <label>favorite:</label>
+        <label><input type="checkbox" value="h">HTML</label>
+        <label><input type="checkbox" value="j">Java</label>
+        <label><input type="checkbox" value="p">PHP</label>
+      </li>
+      <li>
+        <label>University:</label>
+        <select>
+            <option value="gachon" selected>Gachon University</option>
+        </select>
+      </li>
+      <li>
+        <label>Color:
+        <input type="color" value="#000000"></label>
+      </li>
+      <li>
+        <label for="d">Date:</label>
+        <input type="date" for="d">
+        </li>
+        <br>
+        <li>
+        <button type="submit">Registration</button>
+      </li>
+    </ul>
+    </form>
+</body>
+</html>

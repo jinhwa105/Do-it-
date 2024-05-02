@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 폼</title>
+</head>
+<body>
+	<form action="search.php" method="post">
+		<input type="text" title="검색">
+		<input type="submit" value="검색">
+	</form>
+
+	<form>
+		<ul>
+			<li>
+				<label><input type="radio" name="subject" value="eng">영어회화</label>
+			</li>
+			<li>
+				<label><input type="radio" name="subject" value="ch">중국어회화</label>
+			</li>
+			<li>
+				<label><input type="radio" name="subject" value="jp">일어회화</label>
+			</li>
+		</ul>
+		<fieldset>
+			<label>아이디: <input type="text" id="user_id" size="10"></label>
+			<label>비밀번호: <input type="password" id="user_pw" size="10"></label>
+			<input type="submit" value="로그인">
+		</fieldset>
+	</form>
+</body>
+</html>

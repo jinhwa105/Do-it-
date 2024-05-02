@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>선형 그러데이션</title>
+  <style>
+		div {
+			width:300px;
+			height:200px;
+			border-radius:10px;
+		}
+  	.grad {
+  		background:blue;
+		background:-webkit-linear-gradient(left top, pink, white);
+		background:linear-gradient(to right bottom, yellow, white);
+  	}
+	.grad2{
+		background:#b15ecb;
+		background:-webkit-linear-gradient(45deg,#b15ecb,#ffffff );
+	}
+	.grad3{
+		background:#52b8ef;
+		background-image:-webkit-linear-gradient(top, #52b8ef, white 30%, #52b8ef);
+	}
+	.grad4{
+		background:red;
+		background:radial-gradient(circle, white, green, black);
+	}
+	
+  </style>
+</head>
+<body>
+  <div class="grad"></div>
+  <div class="grad2"></div>
+  <div class="grad3"></div>
+  <div class="grad4"></div>
+ </body>
+</html>
